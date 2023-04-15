@@ -39,4 +39,87 @@
   box-shadow: 0 0 10px white;
 }
 
-/*Home
+.headings {
+  font-family: century;
+  font-size: 4.5rem;
+  padding-top: 180px;
+  padding-left: 500px;
+  padding-bottom: 530px;
+}
+
+.heading-desciption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: century;
+  font-size: 1.5px;
+  padding-top: 180px;
+  padding-left: 500px;
+}
+
+.cover-photo {
+  border-radius: 100%;
+  width: 500px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 30px
+}
+
+.about-me-title {
+  display: inline-block;
+  font-family: century;
+  font-size: 2.7rem;
+  color: rgb(9, 9, 88);
+  padding-left: 130px;
+}
+
+.about-me-description {
+  display: inline-block;
+  justify-content: center;
+  padding-left: 80px;
+  padding-bottom: 150px;
+
+}
+.work-title {
+  display: inline-block;
+  font-family: century;
+  font-size: 2.7rem;
+  color: rgb(9, 9, 88);
+  padding-left: 130px;
+}
+
+.work-btns {
+  display: inline-block;
+  justify-content: center;
+  padding-left: 80px;
+  padding-bottom: 150px;
+}
+
+.footer-title {
+  display: inline-block;
+  font-family: century;
+  font-size: 2.7rem;
+  color: rgb(9, 9, 88);
+  padding-left: 130px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+#phone {
+
+}
+
+#email {
+
+}
+
+#git-hub {
+
+}
+
+#you-tube {
+
+}
