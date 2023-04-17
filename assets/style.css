@@ -4,12 +4,19 @@
   box-sizing: border-box;
 }
 
+.main {
+  background-color: rgba(216, 124, 124, 0.527);
+  border-style: solid;
+  border-color: rgba(87, 50, 50, 0.527);
+  border-width: 5px;
+}
 /* Navbar classes */
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.733); 
+  z-index: +1;
   position: sticky;
   top: 0;
 }
@@ -39,6 +46,7 @@
   box-shadow: 0 0 10px white;
 }
 
+/* heading and cover photo */
 .headings {
   font-family: century;
   font-size: 4.5rem;
@@ -61,46 +69,101 @@
   border-radius: 100%;
   width: 500px;
   position: absolute;
-  z-index: -1;
   margin-left: 30px
 }
 
+/* about me */
 .about-me-title {
   display: inline-block;
   font-family: century;
   font-size: 2.7rem;
   color: rgb(9, 9, 88);
-  padding-left: 130px;
+  padding-left: 80px;
 }
 
 .about-me-description {
   display: inline-block;
-  justify-content: center;
-  padding-left: 80px;
-  padding-bottom: 150px;
+  margin-left: 320px;
+  margin-right: 20px;
+  padding: 5px;
+  font-family: century;
+  font-size: 1.5rem;
+  border-style: solid;
+  border-radius: 5%;
 
+/* work */
 }
 .work-title {
   display: inline-block;
   font-family: century;
   font-size: 2.7rem;
   color: rgb(9, 9, 88);
-  padding-left: 130px;
+  padding-left: 80px;
 }
 
 .work-btns {
   display: inline-block;
   justify-content: center;
-  padding-left: 80px;
   padding-bottom: 150px;
 }
 
+/* work images, in order of html */
+.pencil-paper-img-orientation {
+  display: flex;
+  justify-content: center;
+}
+
+.pencil-paper-img {
+  width: 300px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 10%
+}
+
+.image-orientation {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-img {
+width: 150px;
+padding: 20px;
+margin: 10px;
+border-style: solid;
+border-radius: 10%;
+}
+
+.memory-img {
+  width: 150px;
+  padding: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10%
+}
+
+.discgolf-img {
+  width: 150px;
+  padding: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10%
+}
+
+.unity-img {
+  width: 150px;
+  padding: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10%
+}
+
+/* footer and contact me links */
 .footer-title {
   display: inline-block;
   font-family: century;
   font-size: 2.7rem;
   color: rgb(9, 9, 88);
-  padding-left: 130px;
+  padding-left: 80px;
 }
 
 .footer-info {
@@ -109,17 +172,26 @@
 }
 
 #phone {
-
+  padding-left: 200px;
+  padding-right: 30px;
+  margin-bottom: 25px;
 }
 
 #email {
-
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 25px;
 }
 
 #git-hub {
-
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 25px;
 }
 
 #you-tube {
-
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 25px;
 }
+

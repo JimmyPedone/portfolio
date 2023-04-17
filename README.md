@@ -1,7 +1,12 @@
 # portfolio
 
 ## Description
+Hello!  For challenge 2, this is my working project of building my portfolio.  As I am just learning the basics, I am not entirely sure which direcion I want to take with my full-stack knowledge until likely the end of the course. This portfolio does highlights some interests and directions I would like to take with coding by the end of the bootcamp, I plan on resubmitting this homework with a more accurate reflection of the acceptance criteria.  I am behind due to some personal reasons, but I'd like to submit something for a grade as I am working diligently to catch up.
 
+-My navigation bar contains everything the user (potential employer) will need to reach me
+-My idea with my picture and heading, once cleaned up, will draw the attention of the employer
+
+Thank you!
 
 -------------------------------------------------------------------------------------------------------------------------------------
 # 02 Advanced CSS: Portfolio
